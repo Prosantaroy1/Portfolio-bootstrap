@@ -82,7 +82,7 @@ nav{
 }
 /* overly style */
 .overly{
-    background-image: url(/img/man.webp);
+    background-image: url(../img/man.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
@@ -98,7 +98,7 @@ nav{
 }
 /* /* animation */
 .animation{
-    background-image: url(/img/shape.png);
+    background-image: url(../img/shape.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
