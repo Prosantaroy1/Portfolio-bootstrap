@@ -1,0 +1,110 @@
+/* 
+=====navber style open 
+=======*/
+nav{
+    background-color: #FFFFFF;
+}
+
+.navbar-nav{
+    gap: 50px;
+    padding: 20px 0px;
+}
+.navbar-nav .nav-link{
+    font-size: 23px;
+    font-weight: 500;
+    color: #00413D !important;
+    font-family: "Jost", sans-serif;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.nav-link:hover{
+    color: #E5745D !important;
+}
+
+
+/* btn */
+.btnCommon{
+    text-decoration: none;
+    background: #E5745D;
+    width: 198px;
+    height: 64px;
+    font-size: 20px;
+    line-height: 64px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    color: #ffff;
+    text-align: center;
+    position: relative;
+}
+.btnCommon a{
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    color: #ffff;
+}
+.btnCommon::after{
+    position: absolute;
+    top: 7px;
+    left: 8px;
+    width: 182px;
+    height: 51px;
+    border: 1px solid #f3f3f3;
+    content: "";
+}
+/* 
+---------banner section style --------
+*/
+.banner-main{
+    background: #00413D;
+    width: 100%;
+    padding: 160px 0px;
+    position: relative;
+    overflow: hidden;
+}
+.banner-main h1{
+    font-weight: 700px;
+    font-size: 100px;
+    color: #FFFFFF;
+    font-family: "Vollkorn", serif;
+}
+.banner-main h1 span{
+    display: block;
+}
+.banner-main p{
+    color: #b8b1b1;
+    width: 670px;
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    padding-top: 14px;
+    padding-bottom: 50px;
+    font-weight: 400;
+    line-height: 30px;
+}
+/* overly style */
+.overly{
+    background-image: url(/img/man.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -40%;
+    transition: 0.4s;
+}
+.banner-main:hover .overly{
+    right: 0;
+}
+/* /* animation */
+.animation{
+    background-image: url(/img/shape.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 60%;
+    height: 100%;
+}
