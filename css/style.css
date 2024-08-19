@@ -3,11 +3,12 @@
 =======*/
 nav{
     background-color: #FFFFFF;
+    
 }
 
 .navbar-nav{
     gap: 50px;
-    padding: 20px 0px;
+    padding: 30px 0px;
 }
 .navbar-nav .nav-link{
     font-size: 23px;
@@ -90,7 +91,7 @@ nav{
     height: 100%;
     position: absolute;
     top: 0;
-    right: -40%;
+    right: -60%;
     transition: 0.4s;
 }
 .banner-main:hover .overly{
@@ -102,9 +103,120 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0px;
-    width: 60%;
+    width: 40%;
     height: 100%;
+}
+/* 
+-----
+-----service style open---
+-------------
+*/
+.service-main{
+    padding-top: 130px;
+}
+.title h4{
+    color: #E5745D;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+}
+.title h4::after{
+    position: absolute;
+    top: 9px;
+    left: 41%;
+    width: 51px;
+    height: 3px;
+    background: #E5745D;
+    content: "";
+}
+.title h4::before{
+    position: absolute;
+    top: 5px;
+    left: 44%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #E5745D;
+    content: "";
+}
+.title h2{
+    color: #00413D;
+    width: 522px;
+    margin: 0px auto;
+    font-family: "Vollkorn", serif;
+    font-size: 50px;
+    padding-top: 11px;
+}
+/* sevice card */
+.card-title{
+    font-size: 24px;
+    font-family: "Vollkorn", serif;
+    color: #00413D;
+}
+.card-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #00413D;
+}
+.card-title .fa-solid{
+    font-size: 30px;
+}
+.card-title .fa-solid:hover{
+    color: #E5745D;
+}
+/* 
+----------------
+----------about-section------
+-----------
+*/
+.first-img{
+    width: 63%;
+}
+.about h1{
+    font-size: 50px;
+    font-family: "Vollkorn", serif;
+    color: #00413D;
+}
+.about p{
+    font-size: 16px;
+    color: #00413D;
+    font-family: "Jost", sans-serif;
+}
+/* about skill section */
+.progress-box{
+    border: 8px solid #E5745D;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.progress-box h3{
+    color: #E5745D;
+    font-size: 34px;
+    font-family: "Vollkorn", serif;
+    font-weight: 600;
+}
+.skill-box h2{
+    color: #00413D;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Vollkorn", serif;
+}
+/* 
+-----------------
+-------recent project--------
+---------- 
+*/
+.recent-skip .btn{
+    background-color: #eeeeee;
+    color: #1b1818;
+    font-size: 24px;
+    
+}
+.recent-skip .btn:hover{
+    background-color: #E5745D;
+    color: #f3f3f3;
+    
 }
