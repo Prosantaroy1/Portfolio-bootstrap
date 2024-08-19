@@ -1,16 +1,20 @@
 /* 
 =====navber style open 
 =======*/
-nav{
+nav {
     background-color: #FFFFFF;
-    
+
+}
+ul li{
+    list-style: none;
 }
 
-.navbar-nav{
+.navbar-nav {
     gap: 50px;
     padding: 30px 0px;
 }
-.navbar-nav .nav-link{
+
+.navbar-nav .nav-link {
     font-size: 23px;
     font-weight: 500;
     color: #00413D !important;
@@ -18,13 +22,14 @@ nav{
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #E5745D !important;
 }
 
 
 /* btn */
-.btnCommon{
+.btnCommon {
     text-decoration: none;
     background: #E5745D;
     width: 198px;
@@ -37,13 +42,15 @@ nav{
     text-align: center;
     position: relative;
 }
-.btnCommon a{
+
+.btnCommon a {
     text-decoration: none;
     font-weight: 500;
     font-family: "Jost", sans-serif;
     color: #ffff;
 }
-.btnCommon::after{
+
+.btnCommon::after {
     position: absolute;
     top: 7px;
     left: 8px;
@@ -52,26 +59,30 @@ nav{
     border: 1px solid #f3f3f3;
     content: "";
 }
+
 /* 
 ---------banner section style --------
 */
-.banner-main{
+.banner-main {
     background: #00413D;
     width: 100%;
     padding: 160px 0px;
     position: relative;
     overflow: hidden;
 }
-.banner-main h1{
+
+.banner-main h1 {
     font-weight: 700px;
     font-size: 100px;
     color: #FFFFFF;
     font-family: "Vollkorn", serif;
 }
-.banner-main h1 span{
+
+.banner-main h1 span {
     display: block;
 }
-.banner-main p{
+
+.banner-main p {
     color: #b8b1b1;
     width: 670px;
     font-family: "Jost", sans-serif;
@@ -81,12 +92,13 @@ nav{
     font-weight: 400;
     line-height: 30px;
 }
+
 /* overly style */
-.overly{
+.overly {
     background-image: url(../img/man.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
     width: 60%;
     height: 100%;
     position: absolute;
@@ -94,36 +106,41 @@ nav{
     right: -60%;
     transition: 0.4s;
 }
-.banner-main:hover .overly{
+
+.banner-main:hover .overly {
     right: 0;
 }
+
 /* /* animation */
-.animation{
+.animation {
     background-image: url(../img/shape.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
     position: absolute;
     top: 0;
     left: 0px;
     width: 40%;
     height: 100%;
 }
+
 /* 
 -----
 -----service style open---
 -------------
 */
-.service-main{
+.service-main {
     padding-top: 130px;
 }
-.title h4{
+
+.title h4 {
     color: #E5745D;
     font-size: 18px;
     font-weight: 500;
     position: relative;
 }
-.title h4::after{
+
+/* .title h4::after {
     position: absolute;
     top: 9px;
     left: 41%;
@@ -132,7 +149,8 @@ nav{
     background: #E5745D;
     content: "";
 }
-.title h4::before{
+
+.title h4::before {
     position: absolute;
     top: 5px;
     left: 44%;
@@ -141,8 +159,9 @@ nav{
     border-radius: 50%;
     background: #E5745D;
     content: "";
-}
-.title h2{
+} */
+
+.title h2 {
     color: #00413D;
     width: 522px;
     margin: 0px auto;
@@ -150,73 +169,210 @@ nav{
     font-size: 50px;
     padding-top: 11px;
 }
+
 /* sevice card */
-.card-title{
+.card-title {
     font-size: 24px;
     font-family: "Vollkorn", serif;
     color: #00413D;
 }
-.card-text{
+
+.card-text {
     font-size: 16px;
     font-weight: 400;
     color: #00413D;
 }
-.card-title .fa-solid{
+
+.card-title .fa-solid {
     font-size: 30px;
 }
-.card-title .fa-solid:hover{
+
+.card-title .fa-solid:hover {
     color: #E5745D;
 }
+
 /* 
 ----------------
 ----------about-section------
 -----------
 */
-.first-img{
+.first-img {
     width: 63%;
 }
-.about h1{
+
+.about h1 {
     font-size: 50px;
     font-family: "Vollkorn", serif;
     color: #00413D;
 }
-.about p{
+
+.about p {
     font-size: 16px;
     color: #00413D;
     font-family: "Jost", sans-serif;
 }
+.about-img{
+    height: 46%;
+}
+
 /* about skill section */
-.progress-box{
+.progress-box {
     border: 8px solid #E5745D;
     width: 150px;
     height: 150px;
     border-radius: 100%;
 }
-.progress-box h3{
+
+.progress-box h3 {
     color: #E5745D;
     font-size: 34px;
     font-family: "Vollkorn", serif;
     font-weight: 600;
 }
-.skill-box h2{
+
+.skill-box h2 {
     color: #00413D;
     font-size: 26px;
     font-weight: 600;
     font-family: "Vollkorn", serif;
 }
+
 /* 
 -----------------
 -------recent project--------
 ---------- 
 */
-.recent-skip .btn{
+.recent-title p {
+    color: #E5745D;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+}
+
+.recent-title h2 {
+    font-size: 50px;
+    color: #00413D;
+    font-family: "Vollkorn", serif;
+}
+
+.recent-skip .btn {
     background-color: #eeeeee;
     color: #1b1818;
     font-size: 24px;
-    
+
 }
-.recent-skip .btn:hover{
+
+.recent-skip .btn:hover {
     background-color: #E5745D;
     color: #f3f3f3;
-    
+
 }
+
+/* recent card */
+.card-img{
+    height: 250px;
+}
+.recent-project h5 {
+    color: #E5745D;
+    font-size: 20px;
+}
+
+.recent-project h2 {
+    color: #00413D;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+}
+.recent-project p{
+    color: #00413D;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+}
+.recent-project .card-body{
+    padding-left: 38px;
+    line-height: 30px;
+}
+
+.card-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    color: #00413D;
+}
+.card-link:hover{
+    color: #E5745D;
+}
+/* 
+-------------
+--portfolio section styles
+------------
+*/
+.portfolio-header h1{
+    color: #00413D;
+    font-size: 50px;
+    font-family: "Vollkorn", serif;
+}
+.portfolio-header ul li{
+    color:  #00413D;
+    font-size: 22px;
+    padding: 2px;
+    font-family: "Vollkorn", serif;
+}
+.portfolio-header ul li:hover{
+    border-bottom: 3px solid #E5745D;
+}
+/* cart */
+.portfolio-work .card-body{
+    background-color: #00413D;
+    color: #eeeeee;
+    font-family: "Vollkorn", serif;
+}
+.pf-box{
+    position: absolute;
+    top: 10px;
+    right: 11px;
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    content: "";
+}
+/*
+-------contact style 
+ */
+ .contact h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #00413D;
+    font-family: "Vollkorn", serif;
+ }
+ .contact-input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+ }
+ .contact-input input{
+    width: 45%;
+    border: 0;
+    padding: 18px 7px;
+    border-bottom: 3px solid rgba(53, 51, 51, 0.1);
+   
+ }
+ .contact-input ::placeholder{
+    color: #00413D;
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+ }
+ .contact-input textarea{
+    border: 0;
+    padding: 18px 7px;
+    border-bottom: 3px solid rgba(53, 51, 51, 0.1);
+   
+ }
+.comment{
+    color: #00413D;
+    font-size: 20px !important;
+    font-family: "Jost", sans-serif; 
+}
+ 
