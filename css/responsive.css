@@ -76,4 +76,20 @@
        
     }
     /* -----------blogs------ */
+    .blog-box h1 {
+        font-size: 30px;
+    }
+    .blogs p {
+        font-size: 11px;
+    }
+    /* ----footer---- */
+    .ft-img{
+        width: 200px;
+    }
+    .footer-nav ul li {
+        border-right: 0px; 
+    }
+    ol, ul {
+        padding-left: 0rem;
+    }
 }
