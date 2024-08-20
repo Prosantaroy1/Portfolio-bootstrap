@@ -1,0 +1,79 @@
+@media (min-width: 320px) and (max-width: 575.99px) {
+    /* navber */
+    .navbar-nav {
+        align-items: center;
+    }
+    .btnCommon {
+        margin: auto;
+    }
+    /* ------banner responsive--------- */
+    .overly {
+        width: 0; 
+        height: 0;  
+    }
+    .banner-main h1 {
+        font-size: 35px;
+    }
+    .banner-main p {
+        width: 304px; 
+    }
+    .btnCommon {
+         margin: 0; 
+    }
+    .banner-main {
+        padding: 42px 0px;
+        
+    }
+    /* -----------service res---------- */
+    .service-effcet {
+        display: none;
+    }
+    .title h2 {
+        width: 287px;
+        font-size: 26px;
+        
+    }
+    .row {
+        gap: 26px;
+    }
+    /*---------about res---------  */
+    .first-img {
+        width: 241%;
+    }
+    .w-50 {
+         width: 0px ; 
+    }
+    .gap-5 {
+        gap: 2rem !important;
+    }
+    .about h1 {
+        font-size: 34px;
+    }
+    /* -----recent------- */
+    .btn{
+        display: none;
+    }
+    /* -------portfolio------- */
+    .portfolio-header h1 {
+        font-size: 29px;   
+    }
+    /* ------testimonial --------- */
+    .test-header h1 {
+        font-size: 29px;    
+    }
+    .tt-vector {
+        top: 162px;    
+    }
+    /* ------contact------- */
+    .contact h1 {
+        font-size: 31px;
+    }
+    .contact-input input {
+        width: 100%;
+    }
+    .contact-input input {
+        border: 0; 
+       
+    }
+    /* -----------blogs------ */
+}

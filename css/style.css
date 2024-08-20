@@ -195,6 +195,13 @@ ul li{
     color: #E5745D;
 }
 
+.service-effcet {
+        position: absolute;
+        top: 203px;
+        left: 122px;
+ }
+
+
 /* 
 ----------------
 ----------about-section------
@@ -246,6 +253,11 @@ ul li{
 -------recent project--------
 ---------- 
 */
+.recent-effcet{
+    position: absolute;
+    top: 40%;
+    right: 120px;
+}
 .recent-title p {
     color: #E5745D;
     font-size: 18px;
