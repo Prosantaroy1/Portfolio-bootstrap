@@ -326,20 +326,38 @@ ul li{
     border-bottom: 3px solid #E5745D;
 }
 /* cart */
+.card-img2{
+    height: 350px;
+}
 .portfolio-work .card-body{
     background-color: #00413D;
     color: #eeeeee;
     font-family: "Vollkorn", serif;
 }
+.pt-overly{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    content: "";
+    opacity: 0;
+    transition: 0.6s;
+    
+}
 .pf-box{
     position: absolute;
-    top: 10px;
-    right: 11px;
+    top: 12px;
+    right: 15px;
     width: 60px;
     height: 60px;
     background-color: #ffffff;
     border-radius: 50%;
     content: "";
+}
+.portfolio-box:hover .pt-overly{
+    opacity: 1;
+    background-color: rgba(0, 65,61, 0.4);
 }
 /*
 -------testimonial  style --------
@@ -384,7 +402,9 @@ ul li{
     color: #FF9F3F;
 }
 /*
+-----------
 -------contact style -------------
+----------
  */
  .contact h1{
     font-size: 50px;
@@ -422,3 +442,60 @@ ul li{
     font-family: "Jost", sans-serif; 
 }
  
+/* 
+--------
+---------blog style open-----------
+----------
+*/
+.blog-box h1{
+    color:  #00413D;
+    font-size: 50px;
+    font-family: "Vollkorn", serif;
+    font-weight: 600;
+}
+.blogs h2{
+    color: #00413D !important;
+    font-size: 24px;
+}
+.blogs p{
+    color: #00413D !important;
+    font-size: 18px;
+}
+/* 
+-----------------
+----------Footer------
+---------------
+*/
+.footer{
+    background-color: #00413D;
+    padding: 50px 0px;
+}
+/* footer nav */
+.footer-nav ul li{
+    border-right: 4px solid #534e4e;
+    padding: 3px 12px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.footer-nav .ft-link{
+    border: 0;
+}
+/* footr icon */
+.footer-icon li{
+    background-color: #E5745D;
+    border-radius: 50%;
+}
+.footer-icon li i{
+    font-size: 25px;
+    padding: 12px;
+    color: #FFFFFF;
+}
+/* ft last */
+.ft-last{
+    background-color: #00413D;
+}
+.footer-last{
+    border-top: 2px solid rgb(122, 118, 118);
+    width: 85%;
+    margin: auto;    
+}
