@@ -38,7 +38,7 @@
     }
     /*---------about res---------  */
     .first-img {
-        width: 241%;
+        width: 47%;
     }
     .w-50 {
          width: 0px ; 
@@ -143,7 +143,7 @@
     }
     /*---------about res---------  */
     .first-img {
-        width: 241%;
+        width: 47%;
     }
     .w-50 {
          width: 0px ; 
@@ -253,7 +253,7 @@
     }
     /*---------about res---------  */
     .first-img {
-        width: 241%;
+        width: 62%;
     }
     .w-50 {
          width: 0px ; 
@@ -355,6 +355,10 @@
     }
 }
 @media (min-width: 993px) and (max-width: 1200px){
+    /* about */
+    .first-img {
+        width: 57%;
+    }
     /* banner */
     .overly {
         width: 0; 
@@ -363,9 +367,5 @@
     /* service */
     .p-5 {
         padding: 2rem !important;
-    }
-    /* about */
-    .first-img {
-        width: 97%;
     }
 }
