@@ -3,7 +3,7 @@
     .navbar-nav {
         align-items: center;
     }
-    .btnCommon {
+    .collapse .btnCommon {
         margin: auto;
     }
     /* ------banner responsive--------- */
@@ -64,17 +64,27 @@
     .tt-vector {
         top: 162px;    
     }
+
     /* ------contact------- */
     .contact h1 {
-        font-size: 31px;
+        font-size: 28px;
     }
     .contact-input input {
         width: 100%;
     }
+    .contact-input ::placeholder{
+        font-size: 30px;
+     }
+     .comment{
+        font-size: 30px !important;
+    }
     .contact-input input {
-        border: 0; 
+        border: 2px solid rgb(92, 87, 87); 
        
     }
+    .contact-input textarea{
+        border: 2px solid rgb(92, 87, 87);   
+     }
     /* -----------blogs------ */
     .blog-box h1 {
         font-size: 30px;
@@ -91,5 +101,271 @@
     }
     ol, ul {
         padding-left: 0rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 768.99px) {
+    /* navber */
+    .navbar-nav {
+        align-items: center;
+    }
+    .collapse .btnCommon {
+        margin: auto;
+    }
+    /* ------banner responsive--------- */
+    .overly {
+        width: 0; 
+        height: 0;  
+    }
+    .banner-main h1 {
+        font-size: 35px;
+    }
+    .banner-main p {
+        width: 304px; 
+    }
+    .btnCommon {
+         margin: 0; 
+    }
+    .banner-main {
+        padding: 42px 0px;
+        
+    }
+    /* -----------service res---------- */
+    .service-effcet {
+        display: none;
+    }
+    .title h2 {
+        width: 287px;
+        font-size: 26px;
+        
+    }
+    .row {
+        gap: 26px;
+    }
+    /*---------about res---------  */
+    .first-img {
+        width: 241%;
+    }
+    .w-50 {
+         width: 0px ; 
+    }
+    .gap-5 {
+        gap: 2rem !important;
+    }
+    .about h1 {
+        font-size: 34px;
+    }
+    /* -----recent------- */
+    .btn{
+        display: none;
+    }
+    /* -------portfolio------- */
+    .portfolio-header h1 {
+        font-size: 29px;   
+    }
+    /* ------testimonial --------- */
+    .test-header h1 {
+        font-size: 29px;    
+    }
+    .tt-vector {
+        top: 109px;
+    }
+       /* ------contact------- */
+       .contact h1 {
+        font-size: 31px;
+    }
+    .contact-input input {
+        width: 100%;
+    }
+    .contact-input ::placeholder{
+        font-size: 30px;
+     }
+     .comment{
+        font-size: 30px !important;
+    }
+    .contact-input input {
+        border: 2px solid rgb(92, 87, 87); 
+       
+    }
+    .contact-input textarea{
+        border: 2px solid rgb(92, 87, 87);   
+     }
+    /* -----------blogs------ */
+    .blog-box h1 {
+        font-size: 30px;
+    }
+    .blogs p {
+        font-size: 11px;
+    }
+    /* ----footer---- */
+    .ft-img{
+        width: 200px;
+    }
+    .footer-nav ul li {
+        border-right: 0px; 
+    }
+    ol, ul {
+        padding-left: 0rem;
+    }
+}
+@media (min-width: 769px) and (max-width: 992.99px) {
+    /* navber */
+    .navbar-nav {
+        align-items: center;
+    }
+    .collapse .btnCommon {
+        margin: auto;
+    }
+    /* ------banner responsive--------- */
+    
+    .banner-main h1 {
+        font-size: 35px;
+    }
+    .banner-main p {
+        width: 304px; 
+    }
+    .btnCommon {
+         margin: 0; 
+    }
+    .banner-main {
+        padding: 42px 0px;
+        
+    }
+    /* -----------service res---------- */
+    .pt-3 {
+        padding-top: 3rem !important;
+    }
+    .card-title {
+        font-size: 34px;
+    }
+    .service-effcet {
+        display: none;
+    }
+    .title h2 {
+        width: 389px;
+        font-size: 38px;
+    } 
+    .card-text {
+        font-size: 20px;
+    } 
+    
+    .row {
+        gap: 26px;
+    }
+    /*---------about res---------  */
+    .first-img {
+        width: 241%;
+    }
+    .w-50 {
+         width: 0px ; 
+    }
+    .gap-5 {
+        gap: 2rem !important;
+    }
+    .about h1 {
+        font-size: 47px;
+    }
+    .about p {
+        font-size: 20px;
+    }
+    /* -----recent------- */
+    .card-img {
+        height: 352px;
+    }
+    .recent-project h5 {
+        font-size: 29px;
+    }
+    .recent-project h2 {
+        font-size: 33px;
+    }
+    .recent-project p {
+        font-size: 22px;
+    }
+    .card-link {
+        font-size: 22px;  
+    }
+    /* -------portfolio------- */
+    .portfolio-header h1 {
+        font-size: 47px;
+    }
+    .card-img2 {
+        height: 434px;
+    }
+    .h3, h3 {
+        font-size: 36px;
+    }
+    .portfolio-box p {
+        font-size: 20px;
+    }
+    /* ------testimonial --------- */
+    .test-header h1 {
+        font-size: 47px;
+    }
+    .tt-vector {
+        top: 90px;
+    }
+    /* ------contact------- */
+    .contact h1 {
+        font-size: 45px;
+    }
+    .contact-input input {
+        width: 100%;
+    }
+    .contact-input ::placeholder{
+        font-size: 30px;
+     }
+     .comment{
+        font-size: 30px !important;
+    }
+    .contact-input input {
+        border: 2px solid rgb(92, 87, 87); 
+       
+    }
+    .contact-input textarea{
+        border: 2px solid rgb(92, 87, 87);   
+     }
+    /* -----------blogs------ */
+    .blog-box h1 {
+        font-size: 50px;
+    }
+    .blogs h2 {
+        color: #00413D !important;
+        font-size: 36px;
+    }
+    .blogs p {
+        font-size: 23px;
+    }
+    .h5, h5 {
+        font-size: 2.25rem;
+    }
+    .card-img {
+        height: 412px;
+    }
+    /* ----footer---- */
+    .ft-img{
+        width: 200px;
+    }
+    .footer-nav ul li {
+        border-right: 0px; 
+    }
+    ol, ul {
+        padding-left: 0rem;
+    }
+    .footer-nav ul li {
+        font-size: 29px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1200px){
+    /* banner */
+    .overly {
+        width: 0; 
+        height: 0;  
+    }
+    /* service */
+    .p-5 {
+        padding: 2rem !important;
+    }
+    /* about */
+    .first-img {
+        width: 97%;
     }
 }
