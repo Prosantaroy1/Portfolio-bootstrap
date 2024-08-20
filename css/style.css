@@ -191,6 +191,10 @@ ul li{
     color: #E5745D;
 }
 
+.serivce-icon:hover{
+    color: #E5745D;
+}
+
 /* 
 ----------------
 ----------about-section------
@@ -338,7 +342,49 @@ ul li{
     content: "";
 }
 /*
--------contact style 
+-------testimonial  style --------
+ */
+ .testimonial{
+    background-color: #F9F4F1;
+    padding: 80px 0px;
+ }
+.test-header h1{
+     font-size: 50px;
+    font-weight: 600;
+    color: #00413D;
+    font-family: "Vollkorn", serif;
+}
+.tt-box{
+    border-top: 7px solid #E5745D;
+    position: relative;
+}
+.tt-vector {
+    position: absolute;
+    top: 84px;
+    left: 47px;
+}
+/* profile tt */
+.tt-profile{
+    padding-left: 40px;
+}
+.profile-box h3{
+    font-size: 22px;
+    color: #00413D;
+    font-family: "Vollkorn", serif;
+}
+.profile-box h4{
+    font-size: 17px;
+    color: #00413D;
+    font-family: "Vollkorn", serif;
+}
+.profile-box ul {
+    padding: 0;
+}
+.profile-box ul li i {
+    color: #FF9F3F;
+}
+/*
+-------contact style -------------
  */
  .contact h1{
     font-size: 50px;
